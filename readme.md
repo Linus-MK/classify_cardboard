@@ -13,3 +13,7 @@ img_path = "path/to/folder/"
 "path/to/folder/OK" の下にOKの画像が、  
 "path/to/folder/NG" の下にNGの画像があることを想定しています。
 
+## do_pickle_file_existフラグについて
+画像のHOG特徴量を計算したあと、pickle化して保存しています。  
+初回実行時はこのpickleが存在しないため、  
+do_pickle_file_exist = Falseと変更してください。  
